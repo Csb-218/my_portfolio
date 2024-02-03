@@ -1,0 +1,61 @@
+{
+    "projects": [
+
+        {
+            "p_id": 1,
+            "projectName": "Fire Tube",
+            "description": "Fire Tube is a relica of YouTube. This is hobby project. It has a home page where you can see your feed. It has a sidebar to choose catagories. You can click on a video to go to the video page. Search functionality is also plugged. Last but not the least there is a channel Page where channel details is available.",
+            "image": "/FireTube.png",
+            "keyFeatures": [
+                "Infinite scrolling", "data caching", "Authentication", "cookie storage"
+            ],
+            "tools": [
+                "HTML", "CSS", "Tailwind CSS", "Javascript", "React.js", "Next.js", "react-query", "jwt", "git", "axios", "formik"
+            ],
+            "links": {
+                "github": "https://github.com/Csb-218/FireTube",
+                "live_url": "https://fire-tube.vercel.app"
+            }
+        },
+
+        {
+            "p_id": 2,
+            "projectName": "The Open Factory",
+            "description": "The Open Factory is a real time data tracking app of a Kolkata-based startup. It uses mqtt protocol to track data in real time. It is a prototype . It has a total of 10 pages. This app is deployed on AWS.",
+            "image": "/OpenFactory.png",
+            "keyFeatures": [
+                "mqtt protocol", "data caching", "Authentication", "cookie storage", "CRUD operations"
+            ],
+            "tools": [
+                "HTML", "CSS", "SCSS", "Bootstrap CSS", "Javascript", "React.js", "react-query", "formik", "axios", "jwt", "axios", "git"
+            ],
+            "links": {
+                "github": "https://github.com/Csb-218/frontend_v002",
+                "live_url": "https://theopenfactory.cloud"
+            }
+        },
+
+        {
+            "p_id": 3,
+            "projectName": "TweetX",
+            "description": "TweetX is a social-media web app. This is one of my favourite hobby project. This is built upon Next.js framework. It is designed taking inspiration from Twitter. A user is required to signup to enter. There is a home page where a user can see his/her feed. It has a users page where a user can see alll users and follow his/her desired ones. Last but not the least there is a Profile page where a user can see details of his profile.",
+            "image": "/TweetX.png",
+            "keyFeatures": [
+                "Infinite scrolling", "data caching", "Authentication", "cookie storage", "CRUD operations"
+            ],
+            "tools": [
+                "HTML", "CSS", "Tailwind CSS", "Javascript", "React.js", "Next.js", "react-query", "jwt", "git", "node.js", "Express", "MongoDb", "mongoose", "Cloudinary Api"
+            ],
+            "links": {
+                "github": {
+                    "client": "https://github.com/Csb-218/Tweetx_Client",
+                    "server": "https://github.com/Csb-218/TweetX_Server"
+                },
+                "live_url": "https://tweetx-client.vercel.app"
+            }
+        }
+
+    ]
+}
+
+
