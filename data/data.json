@@ -4,7 +4,7 @@
         {
             "p_id": 1,
             "projectName": "Fire Tube",
-            "description": "Fire Tube is a relica of YouTube. This is hobby project. It has a home page where you can see your feed. It has a sidebar to choose catagories. You can click on a video to go to the video page. Search functionality is also plugged. Last but not the least there is a channel Page where channel details is available.",
+            "description": "Fire Tube is a replica of YouTube. This is hobby project. It has a home page where you can see your feed. It has a sidebar to choose catagories. You can click on a video to go to the video page. Search functionality is also plugged. Last but not the least there is a channel Page where channel details is available.",
             "image": "/FireTube.png",
             "keyFeatures": [
                 "Infinite scrolling", "data caching", "Authentication", "cookie storage"
