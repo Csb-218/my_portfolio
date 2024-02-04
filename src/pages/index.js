@@ -28,12 +28,17 @@ export default function Home() {
       <div className={`h-screen w-screen fixed bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('/bg1.jpg')]`}>
        
       </div>
+
+      <div className=''>
+
         <Hero />
         <AboutMe />
         <Projects />
         
         <Contact />
         <Footer />
+        
+      </div>
         
     </>
 
