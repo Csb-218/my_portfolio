@@ -22,7 +22,7 @@ export const NavProvider = ({children}) => {
 
        section === 'projects' && setScroll(1350) 
 
-       section === 'contact' && setScroll(2500)
+       section === 'contact' && setScroll(2750)
 
        console.log(section , scroll)
     },[section])

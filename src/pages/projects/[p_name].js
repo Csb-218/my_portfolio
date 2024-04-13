@@ -6,7 +6,7 @@ import { useNav } from '@/context/NavContext'
 
 export async function getStaticProps(context) {
 
-    const { projects } = await import("../../../data/data.json")
+    const { projects } = await import("../../../data/projects.json")
     const { p_name } = context?.params
     const project = projects?.find(project => project?.projectName === p_name)
 
@@ -21,7 +21,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
 
-    const { projects } = await import("../../../data/data.json")
+    const { projects } = await import("../../../data/projects.json")
 
     const allPaths = projects?.map(project => {
         return {
@@ -47,7 +47,7 @@ export default function Project({ project }) {
 
 
     return (
-        <div className={` h-screen fixed w-screen top-0 overflow-scroll bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('/bg2.jpg')] `} >
+        <div className={` h-screen fixed w-screen top-0 overflow-scroll bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('/backgrounds/bg2.jpg')] `} >
 
             <div className='grid grid-cols-1 gap-y-20 py-60 justify-items-center  backdrop-blur-sm'>
                 <div className="grid grid-cols-1 gap-y-6 place-content-center lg:w-1/2 text-center">
@@ -117,21 +117,25 @@ export default function Project({ project }) {
                     <p>Links</p>
 
                     <div className='flex gap-x-3 '>
-                        <a
+                        {
+                             project?.links?.github &&
+                             <a
                             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             href={ project?.links?.github?.client || project?.links?.github }
                         >
                             Code
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" ariaHidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                             </svg>
                         </a>
+                        }
+                        
                         <a
                             href={project?.links?.live_url}
                             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                         >
                             Visit
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" ariaHidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                             </svg>
                         </a>
