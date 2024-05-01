@@ -31,7 +31,7 @@ export default function Home({projects}) {
       <div className={`h-screen w-screen overflow-scroll lg:pt-0 pt-20 fixed bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('/backgrounds/bg1.jpg')]`}>
        
       </div>
-         <Hero />
+        <Hero />
         <AboutMe />
         <Projects projects={projects} />
         <Contact />
