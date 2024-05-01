@@ -66,7 +66,7 @@ const Projects = ({projects}) => {
         <div className='w-1/2 mt-40 lg:mx-96 space-y-14'>
           <p className='font-mono text-5xl text-center'>Projects</p>
           <div className='text-center'>
-            Every project is a unique journey, guided by our commitment to understanding our clients needs and exceeding their expectations. With a blend of cutting-edge technology, strategic thinking, and artistic flair, we transform ideas into tangible results that drive success.
+            Every project is a unique journey, guided by our commitment to understanding our clients needs and exceeding their expectations. With a blend of cutting-edge technology, strategic thinking, and artistic flair, I transform ideas into tangible results that drive success.
           </div>
         </div>
 
