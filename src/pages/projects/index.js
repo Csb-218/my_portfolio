@@ -60,12 +60,12 @@ const Projects = ({projects}) => {
   return (
     <div className={`border-0 h-screen fixed w-screen top-0 overflow-scroll bg-center bg-no-repeat bg-cover  bg-blend-multiply bg-[url('/backgrounds/bg3.jpg')] `}>
 
-      <div className='backdrop-blur-sm w-full h-full relative border-transparent overflow-scroll border-2'>
+      <div className='backdrop-blur-sm w-full h-full relative border-transparent overflow-scroll '>
 
        {/* introduction hero */}
-        <div className='w-1/2 mt-40 lg:mx-96 space-y-14'>
-          <p className='font-mono text-5xl text-center'>Projects</p>
-          <div className='text-center'>
+        <div className='lg:w-1/2 mt-40 lg:mx-96 space-y-14 w-full'>
+          <p className='font-mono text-5xl text-center '>Projects</p>
+          <div className='text-center '>
             Every project is a unique journey, guided by our commitment to understanding our clients needs and exceeding their expectations. With a blend of cutting-edge technology, strategic thinking, and artistic flair, I transform ideas into tangible results that drive success.
           </div>
         </div>
