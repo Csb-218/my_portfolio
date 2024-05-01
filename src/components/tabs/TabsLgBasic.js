@@ -65,7 +65,7 @@ export default function TabsLgBasic({projects}) {
   return (
     <>
       {/*<!-- Component: Basic lg sized tab full width --> */}
-      <section className="w-full  px-20 mt-16 backdrop-blur-sm" ariaMultiselectable="false">
+      <section className="w-full  lg:px-20 mt-16 backdrop-blur-sm" ariaMultiselectable="false">
         <ul
           className="flex items-center border-b border-slate-800"
           role="tablist"
