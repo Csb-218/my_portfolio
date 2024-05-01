@@ -80,7 +80,7 @@
             "p_id": 5,
             "projectName": "Travello",
             "category": "no-code",
-            "description": "Travello is a travel planner web app. This is built upon Bubble.io.",
+            "description": "Travello is a travel planner web app. This is built upon Bubble.io.I am currently working on this project.",
             "image": "/FirstChoiceTravel/hero.png",
             "keyFeatures": [
                  "Authentication", "cookie storage", "CRUD operations"
