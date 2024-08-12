@@ -54,6 +54,62 @@
                 "live_url": "https://tweetx-client.vercel.app"
             }
         }
+        ,
+        {
+            "p_id": 4,
+            "projectName": "Classio",
+            "category": "no-code",
+            "description": "Classio is a live class-creator web application. This is built upon Bubble.io . It has drawn inspiration from Udemy. A user is required to signup to enter. A teacher can signup and take live classes . A student can join any teacher's class upon registration .",
+            "image": "/classio/hero.png",
+            "keyFeatures": [
+                 "Authentication", "cookie storage", "CRUD operations"
+            ],
+            "tools": [
+                "Bubble.io"
+            ],
+            "links": {
+                
+                "live_url": "https://bootcamp-module-task-5.bubbleapps.io/version-test"
+            }
+        }
+        ,
+        {
+            "p_id": 5,
+            "projectName": "Travello",
+            "category": "no-code",
+            "description": "Travello is a travel planner web app. This is built upon Bubble.io.I am currently working on this project.",
+            "image": "/FirstChoiceTravel/hero.png",
+            "keyFeatures": [
+                 "Authentication", "cookie storage", "CRUD operations"
+            ],
+            "tools": [
+                "Bubble.io"
+ 
+            ],
+            "links": {
+               
+                "live_url": "https://bookmyroom-82609.bubbleapps.io/version-test?debug_mode=true"
+            }
+        }
+        ,
+        {
+            "p_id": 6,
+            "projectName": "CoffeeStyle",
+            "category": "no-code",
+            "description": "Sample website for a business that sells coffee mugs. This pages contains home, products, blog, about and contact page.",
+            "image": "/coffeemugs.png",
+            "keyFeatures": [
+                 "Blog", "Products page", "Landing", "Seo friendly"
+            ],
+            "tools": [
+                "Webflow"
+ 
+            ],
+            "links": {
+               
+                "live_url": "https://coffee-mugs-bc9804.webflow.io/"
+            }
+        }
 
     ]
 }
