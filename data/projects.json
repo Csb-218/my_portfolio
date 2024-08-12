@@ -59,6 +59,25 @@
         }
         ,
         {
+            "p_id": 6,
+            "projectName": "CoffeeStyle",
+            "category": "no-code",
+            "description": "Sample website for a business that sells coffee mugs. This pages contains home, products, blog, about and contact page.",
+            "image": "/coffeemugs.png",
+            "keyFeatures": [
+                 "Blog", "Products page", "Landing", "Seo friendly"
+            ],
+            "tools": [
+                "Webflow"
+ 
+            ],
+            "links": {
+               
+                "live_url": "https://coffee-mugs-bc9804.webflow.io/"
+            }
+        }
+        ,
+        {
             "p_id": 4,
             "projectName": "Classio",
             "category": "no-code",
@@ -94,6 +113,7 @@
                 "live_url": "https://bookmyroom-82609.bubbleapps.io/version-test?debug_mode=true"
             }
         }
+    
 
     ]
 }
